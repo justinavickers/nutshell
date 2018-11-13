@@ -1,5 +1,5 @@
-import newUserCreation from "./User_login/postUserFunction";
-import uponClickLogin from "./User_login/fetching";
+import registration from "./User_login/postUserFunction";
+import sessionStorageSetup from "./User_login/session_storage";
 import displayMessages from"./Messages/MessageGetFunction"
 import messageDisplay from "./Messages/MessageGetFunction";
 import newEventCreation from "./Events/postEventFunction";
@@ -15,4 +15,3 @@ let newEvents = document.getElementById("submitEvent")
 newEvents.addEventListener("click", () => newEventCreation())
 })
 messageDisplay()
-
