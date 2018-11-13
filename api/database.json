@@ -1,5 +1,21 @@
-{ "users":[{
-    "id": 0,
-    "email": "billy", 
-    "password":"I <3 jackie"
-}]}
+{
+  "users": [
+    {
+      "id": 0,
+      "email": "danielreedcombs@gmail.com",
+      "password": "bobobo31"
+    },
+    {
+      "email": "nwessel429@gmail.com",
+      "password": "4317",
+      "id": 1
+    }
+  ],
+  "messages": [
+    {
+      "id": 0,
+      "users_id": 0,
+      "message": "eat FARTS!"
+    }
+  ]
+}
