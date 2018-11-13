@@ -1,5 +1,7 @@
 import userAPIfunctions from "./fetching"
 import sessionStorageSetup from "./user_login"
+import hideDiv from "./classChanger"
+
     // function to post new users to the json database
     function newUserCreation(){
         let login = document.querySelector("#login")
@@ -15,6 +17,7 @@ import sessionStorageSetup from "./user_login"
     .then((response)=>response.json()
     .then((user)=> sessionStorageSetup(user))
     )
-
+  hideDiv()
 }
+
 export default newUserCreation
