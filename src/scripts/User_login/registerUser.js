@@ -1,6 +1,7 @@
 import userAPIfunctions from "./fetching"
 import loginUser from "./loginUser"
-    function registerUser(){
+// function to post new users to the json database
+    function newUserCreation(){
         let login = document.querySelector("#login")
         let password = document.querySelector("#password")
     // empty object for the login and password to populate
@@ -15,4 +16,5 @@ import loginUser from "./loginUser"
     .then((user)=> loginUser(user))
     )
 }
-export default registerUser
+
+export default newUserCreation

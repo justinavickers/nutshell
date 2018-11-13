@@ -1,4 +1,5 @@
 import userAPIfunctions from "./fetching"
+import hideDiv from "./classChanger";
 // creating a function to send logged in users information on the rest of there page
 function loginUser(){
     sessionStorage.clear()
@@ -14,6 +15,7 @@ function loginUser(){
                 alert("wrong password!")
             }
         })
+        hideDiv()
     }
 
     function validatePassword(user){
