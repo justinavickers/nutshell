@@ -15,3 +15,4 @@ const messagesAPIfunctions={
         body: JSON.stringify()
     })}
 }
+export default messagesAPIfunctions
