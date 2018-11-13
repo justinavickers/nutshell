@@ -6,7 +6,7 @@ import messageDisplay from "./Messages/MessageGetFunction";
 // event listener for sign up and register buttons
 let existingUserButton = document.getElementById("loginButton")
 let newUsers = document.getElementById("signUpButton")
-newUsers.addEventListener("click", ()=> registration.newUserCreation())
+newUsers.addEventListener("click", ()=> registration.emailVerification())
 existingUserButton.addEventListener("click", ()=>{ sessionStorageSetup()
 })
 messageDisplay()
