@@ -4,4 +4,5 @@ const APIfunctions={
         .then(users => users.json())
         .then(parsedUsers => parsedUsers)
     }
+   
 }
