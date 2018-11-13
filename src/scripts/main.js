@@ -1,11 +1,12 @@
-console.log("hello")
-// Save data to sessionStorage
-let billy ={
-    "id": 1, 
-    "name": "daniel"
-}
-sessionStorage.setItem("currentUser", JSON.stringify(billy));
-// Get saved data from sessionStorage
-var data = sessionStorage.getItem("currentUser");
-console.log(data)
-console.log(JSON.parse(data))
+import newUserCreation from "./User_login/postUserFunction";
+import uponClickLogin from "./User_login/fetching";
+import displayMessages from"./Messages/MessageGetFunction"
+import messageDisplay from "./Messages/MessageGetFunction";
+// event listener for sign up and register buttons
+let existingUserButton = document.getElementById("loginButton")
+let newUsers = document.getElementById("signUpButton")
+newUsers.addEventListener("click", ()=> newUserCreation())
+existingUserButton.addEventListener("click", ()=>{ uponClickLogin()
+})
+messageDisplay()
+
