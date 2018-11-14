@@ -58,15 +58,15 @@
   ],
   "messages": [
     {
-      "id": 0,
-      "users_id": 0,
+      "id": 1,
+      "userId": 1,
       "message": "eat FARTS!"
     }
   ],
   "events": [
     {
-      "id": 0,
-      "user_id": 0,
+      "id": 1,
+      "userId": 0,
       "task_name": "",
       "completion_date": "",
       "is_complete": true
@@ -75,7 +75,7 @@
   "articles": [
     {
       "id": 0,
-      "user_id": 0,
+      "userId": 0,
       "news_title": "",
       "synopsis": "",
       "url": ""
@@ -84,7 +84,7 @@
   "Task": [
     {
       "id": 0,
-      "user_id": 0,
+      "userId": 0,
       "task_name": "",
       "comp_date": "",
       "is_completed": true
