@@ -11,14 +11,39 @@
       "id": 1
     },
     {
-      "email": "maxamillion@theman.com",
-      "password": "hotguy",
+      "email": "email",
+      "password": "password",
       "id": 2
     },
     {
-      "email": "tallGreg",
-      "password": "gergllat",
+      "email": "email",
+      "password": "password",
       "id": 3
+    },
+    {
+      "email": "email",
+      "password": "password",
+      "id": 4
+    },
+    {
+      "email": "email",
+      "password": "password",
+      "id": 5
+    },
+    {
+      "email": "email",
+      "password": "password",
+      "id": 6
+    },
+    {
+      "email": "danielreedcombs@gmail.com",
+      "password": "BOOM",
+      "id": 7
+    },
+    {
+      "email": "email",
+      "password": "password",
+      "id": 8
     }
   ],
   "messages": [
@@ -28,4 +53,4 @@
       "message": "eat FARTS!"
     }
   ]
-}
+ }
