@@ -1,8 +1,6 @@
-import eventAPIfunctions from "./fetching"
-import sessionStorageSetup from "./user_login"
-import hideDiv from "./classChanger"
+import sessionStorageSetup from "../User_login/session_storage"
 
-    // function to post new users to the json database
+    // Function to post new events to the json database
     function newEventCreation() {
         let name = document.querySelector("#eventName")
         let location = document.querySelector("#eventLocation")
