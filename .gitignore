@@ -9,4 +9,4 @@ obj
 *.sqlite3
 .vscode
 dist
-api/database.json
+./api/database.json
