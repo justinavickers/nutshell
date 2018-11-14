@@ -1,4 +1,4 @@
-import sessionStorageSetup from "../User_login/session_storage"
+import userAPIfunctions from "../User_login/fetching"
 
     // Function to post new events to the JSON database
     function newEventCreation() {
