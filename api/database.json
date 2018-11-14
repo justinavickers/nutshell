@@ -2,48 +2,8 @@
   "users": [
     {
       "id": 0,
-      "email": "danielreedcombs@gmail.com",
-      "password": "bobobo31"
-    },
-    {
-      "email": "email",
-      "password": "password",
-      "id": 1
-    },
-    {
-      "email": "email",
-      "password": "password",
-      "id": 2
-    },
-    {
-      "email": "email",
-      "password": "password",
-      "id": 3
-    },
-    {
-      "email": "email",
-      "password": "password",
-      "id": 4
-    },
-    {
-      "email": "email",
-      "password": "password",
-      "id": 5
-    },
-    {
-      "email": "email",
-      "password": "password",
-      "id": 6
-    },
-    {
-      "email": "danielreedcombs@gmail.com",
-      "password": "BOOM",
-      "id": 7
-    },
-    {
-      "email": "email",
-      "password": "password",
-      "id": 8
+      "email": "",
+      "password": ""
     }
   ],
   "messages": [
@@ -52,5 +12,26 @@
       "users_id": 0,
       "message": "eat FARTS!"
     }
-  ]
+  ],
+  "events": [{
+    "id":0,
+    "user_id":0,
+    "task_name": "",
+    "completion_date":"",
+    "is_complete":true
+  }],
+  "articles": [{
+    "id":0,
+    "user_id":0,
+    "news_title":"",
+    "synopsis":"",
+    "url":""
+  }],
+  "Task": [{
+    "id":0,
+    "user_id":0,
+    "task_name": "",
+    "comp_date": "",
+    "is_completed": true
+  }]
 }
