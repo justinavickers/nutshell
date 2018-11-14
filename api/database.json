@@ -54,6 +54,19 @@
       "email": "danielreedcombs@gmail.com",
       "password": "bobobo31",
       "id": 10
+<<<<<<< Updated upstream
+=======
+    },
+    {
+      "email": "danielreedcombs@gmail.com",
+      "password": "bobobo3",
+      "id": 11
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 12
+>>>>>>> Stashed changes
     }
   ],
   "messages": [
