@@ -24,6 +24,26 @@
       "email": "",
       "password": "",
       "id": 4
+    },
+    {
+      "email": "nwessel429@gmail.com",
+      "password": "cool",
+      "id": 5
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 6
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 7
+    },
+    {
+      "email": "",
+      "password": "",
+      "id": 8
     }
   ],
   "messages": [
@@ -49,6 +69,6 @@
       "news_title": "",
       "synopsis": "",
       "url": ""
-     }
-    ]
-  }
+    }
+  ]
+}
