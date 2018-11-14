@@ -4,18 +4,6 @@
       "id": 0,
       "email": "danielreedcombs@gmail.com",
       "password": "bobobo31"
-    },
-    {
-      "email": "nwessel429@gmail.com",
-      "password": "4317",
-      "id": 1
-    }
-  ],
-  "messages": [
-    {
-      "id": 0,
-      "users_id": 0,
-      "message": "eat FARTS!"
     }
   ],
   "tasks": [
@@ -25,30 +13,7 @@
       "name": "new task",
       "completion_date": "02-04-2019",
       "completed": false
-    },
-    {
-      "taskName": "Task Name",
-      "taskDate": null,
-      "taskCompleted": "on",
-      "id": 1
-    },
-    {
-      "taskName": "Task Name",
-      "taskDate": null,
-      "taskCompleted": "on",
-      "id": 2
-    },
-    {
-      "taskName": "Task Name",
-      "taskDate": null,
-      "taskCompleted": "on",
-      "id": 3
-    },
-    {
-      "taskName": "Task Name",
-      "taskDate": null,
-      "taskCompleted": "on",
-      "id": 4
     }
+
   ]
 }
