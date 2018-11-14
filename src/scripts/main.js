@@ -3,8 +3,16 @@ import newTaskCreation from "./Tasks/postTaskFunction"
 // event listener for sign up and register buttons
 let existingUserButton = document.getElementById("loginButton")
 let newUsers = document.getElementById("signUpButton")
-let newTask = document.querySelector("#taskButton")
-newUsers.addEventListener("click", ()=> newUserCreation())
-existingUserButton.addEventListener("click", ()=>{ userLogin.getLogin()
+let newTasks = document.getElementById("")
+newUsers.addEventListener("click", ()=> {
+    registerUser()
+    alert("Welcome to our webpage")
 })
-newTask.addEventListener("click", ()=> newTaskCreation())
+existingUserButton.addEventListener("click", ()=>{
+    registerUser()
+    alert("Welcome to our webpage")
+})
+newTask.addEventListener("click", ()=> {
+    newTaskCreation()
+    alert("Your task list is now bigger!")
+})
