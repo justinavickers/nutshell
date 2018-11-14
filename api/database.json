@@ -26,13 +26,29 @@
       "id": 4
     }
   ],
-  "tasks": [
+  "messages": [
+    {
+      "id": 0,
+      "users_id": 0,
+      "message": "eat FARTS!"
+    }
+  ],
+  "events": [
     {
       "id": 0,
       "user_id": 0,
-      "name": "new task",
-      "completion_date": "02-04-2019",
-      "completed": false
+      "task_name": "",
+      "completion_date": "",
+      "is_complete": true
     }
-  ]
-}
+  ],
+  "articles": [
+    {
+      "id": 0,
+      "user_id": 0,
+      "news_title": "",
+      "synopsis": "",
+      "url": ""
+     }
+    ]
+  }

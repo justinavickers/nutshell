@@ -1,10 +1,14 @@
 function hideDiv() {
-  const div = document.getElementById("loginBox");
-  const div2 = document.getElementById("messages");
-  const div3 = document.getElementById("tasks")
-  div.classList.toggle("hide") // Makes login & register disappear when pressed
-  div2.classList.toggle("hide") // Makeing messenges appear after above
-  div3.classList.toggle("hide")
+  const login = document.getElementById("loginBox");
+  const messages = document.getElementById("messages");
+  const tasks = document.getElementById("taskBox");
+  const events = document.getElementById("eventBox");
+  const articles = document.getElementById("articleBox");
+  login.classList.toggle("hide") // Makes login & register disappear when pressed
+  messages.classList.toggle("hide") // Making messenges appear after above
+  tasks.classList.toggle("hide")
+  events.classList.toggle("hide")
+  articles.classList.toggle("hide")
   }
 
   export default hideDiv
