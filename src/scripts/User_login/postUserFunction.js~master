@@ -1,4 +1,5 @@
 import userAPIfunctions from "./fetching"
+<<<<<<< HEAD:src/scripts/User_login/postUserFunction.js~master
 import sessionStorageSetup from "./session_storage"
 import hideDiv from "./classChanger"
 
@@ -22,6 +23,11 @@ userAPIfunctions.getUser()
 })
 
     function newUserCreation(){
+=======
+import loginUser from "./loginUser"
+import hideDiv from "./classChanger";
+    function registerUser(){
+>>>>>>> master:src/scripts/User_login/registerUser.js
         let login = document.querySelector("#login")
         let password = document.querySelector("#password")
     // empty object for the login and password to populate
@@ -35,6 +41,12 @@ userAPIfunctions.getUser()
     .then((response)=>response.json()
     .then((user)=> sessionStorageSetup(user))
     )
+<<<<<<< HEAD:src/scripts/User_login/postUserFunction.js~master
     }}
     }
     export default registration
+=======
+    hideDiv()
+}
+export default registerUser
+>>>>>>> master:src/scripts/User_login/registerUser.js

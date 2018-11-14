@@ -4,11 +4,11 @@ import registerUser from "./User_login/registerUser";
 let existingUserButton = document.getElementById("loginButton")
 let newUsers = document.getElementById("signUpButton")
 
-newUsers.addEventListener("click", () => {
+newUsers.addEventListener("click", ()=> {
     registerUser()
     alert("Welcome to our webpage")
 })
-existingUserButton.addEventListener("click", () => {
+existingUserButton.addEventListener("click", ()=>{
   registerUser()
     alert("Welcome to our webpage")
 })
