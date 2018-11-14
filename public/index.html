@@ -7,20 +7,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <article class="login">
+
+<article class="login">
 
 <div id= "loginBox" class="loginBox">
-    <input type="text" id="login" class="login" value="email" required>
-    <input type= "text" id="password" class="password" value= "password" required>
+    <input type="text" id="login" class="login" placeholder="Email" required>
+    <input type= "text" id="password" class="password" placeholder= "Password" required>
     <input type="button" class="loginButton" id="loginButton" value="Login">
     <input type= "button" class="signUpButton" id="signUpButton" value="Register">
 </div>
 
 <div id="messages" class="hide">
     <input type="text" id="messageBar" class="messageBar">
-    <input type="button" id="messageButton" class="messageButton" value="message">
+    <input type="button" id="messageButton" class="messageButton" value="Message">
     <div class="messageInjection" id= "messageInjection"></div>
+
+    <aside class="messaesContainer">
+    </aside>
+</div>
+
+<br>
+
+<div id="taskBox" class="taskBox hide">
+    <input type="text" id="taskBar" class="taskBar" placeholder="Whatcha needta do?">
+    <input type="button" class="submitTask" id="submitTask" value="Submit">
+    <input type="button" class="deleteTask" id="deleteTask" value="Delete">
+
+    <aside class="tasksContainer">
+    </aside>
 </div>
 <div id="articles" class="hide">
 <input type="text" id="news_title" class="news_title" value="News Title">
@@ -30,9 +46,34 @@
 
 </div>
 
-    </article>
+<br>
 
+<div id="eventBox" class="eventBox hide">
+  <input type="text" id="eventName" class="eventName" placeholder="Name of event">
+  <input type="text" id="eventLocation" class="eventLocation" placeholder="Location">
+  <input type="date" id="eventDate" class="eventDate" placeholder="Date">
+  <input type="button" id="submitEvent" class="submitEvent" value="Submit">
+  <input type="button" id="editEvent" class="editEvent" value="Edit">
+  <input type="button" id="deleteEvent" class="deteEvent" value="Delete">
 
-    <script src="bundle.js"></script>
+  <aside class="eventsContainer">
+  </aside>
+</div>
+
+<br>
+
+<div id="articleBox" class="articleBox hide">
+  <input type="text" id="articleTitle" class="articleTitle" placeholder="Title of article">
+  <input type="text" id="description" class="description" placeholder="Description">
+  <input type="text" id="url" class="url" placeholder="Paste URL">
+  <input type="button" id="submitArticle" class="submitArticle" value="Submit">
+
+  <aside class="articlesContainer">
+  </aside>
+</div>
+
+</article>
+
+<script src="bundle.js"></script>
 </body>
 </html>
