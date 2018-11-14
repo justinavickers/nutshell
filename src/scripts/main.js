@@ -2,6 +2,7 @@ import newUserCreation from "./User_login/registerUser";
 import loginUser from "./User_login/loginUser"
 import displayMessages from"./Messages/MessageGetFunction"
 import messageDisplay from "./Messages/MessageGetFunction";
+// import sessionStorageSetup from "./User_login/session_storage";
 // event listener for sign up and register buttons
 let existingUserButton = document.getElementById("loginButton")
 let newUsers = document.getElementById("signUpButton")
@@ -15,4 +16,3 @@ existingUserButton.addEventListener("click", ()=>{
     alert("Welcome to our webpage")
 })
 messageDisplay()
-

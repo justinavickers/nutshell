@@ -35,7 +35,6 @@ userAPIfunctions.getUser()
     .then((response)=>response.json()
     .then((user)=> sessionStorageSetup(user))
     )
-  hideDiv()
-}
-
-export default registration
+    }}
+    }
+    export default registration
