@@ -3,7 +3,7 @@ import sessionStorageSetup from "./user_login"
 import hideDiv from "./classChanger"
 
     // function to post new users to the json database
-    function newEventCreation(){
+    function newEventCreation() {
         let name = document.querySelector("#eventName")
         let location = document.querySelector("#eventLocation")
         let date = date.querySelector("#eventDate")
@@ -20,8 +20,8 @@ import hideDiv from "./classChanger"
     event.date = (date.value)
 
     userAPIfunctions.postUser(obj)
-    .then((response)=>response.json()
-    .then((user)=> sessionStorageSetup(user))
+    .then((response) => response.json()
+    .then((user) => sessionStorageSetup(user))
     )
 }
 

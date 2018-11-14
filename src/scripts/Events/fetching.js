@@ -1,14 +1,14 @@
-const eventAPIfunctions={
+const eventAPIfunctions = {
   // Pulling events from the JSON database to the main JS
-  getEvent(){
+  getEvent() {
       fetch("http://localhost:8088/events")
       .then(events => events.json())
       .then(parsedEvents => parsedEvents)
   },
   // To post new events to the JSON database
-  postEvent(event){
+  postEvent(event) {
       console.log("postrunning", event)
-      return fetch("http://localhost:8088/events",{
+      return fetch("http://localhost:8088/events", {
       method:"POST",
       headers: {
           "Content-Type": "application/json"

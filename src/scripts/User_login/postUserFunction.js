@@ -35,14 +35,7 @@ userAPIfunctions.getUser()
     .then((response)=>response.json()
     .then((user)=> sessionStorageSetup(user))
     )
-<<<<<<< HEAD
-
-}}
-}
-export default registration
-=======
   hideDiv()
 }
 
-export default newUserCreation
->>>>>>> master
+export default registration
