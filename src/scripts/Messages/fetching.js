@@ -1,18 +1,18 @@
 const messagesAPIfunctions={
     // pulling users from the JSON database to the main js
-    getMessages(){
+    getAllMessages(){
         fetch("http://localhost:8088/messages")
         .then(users => users.json())
-        .then(parsedmessages => parsedmessages)
+        .then(parsedMessages => parsedMessages)
     },
     // to post new users to the JSON database
-    postmessages(){
+    postmessage(obj){
         return fetch("http://localhost:8088/messages",{
         method:"POST",
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify()
+        body: JSON.stringify(obj)
     })}
 }
 export default messagesAPIfunctions
