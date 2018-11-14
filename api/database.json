@@ -4,6 +4,21 @@
       "id": 0,
       "email": "danielreedcombs@gmail.com",
       "password": "bobobo31"
+    },
+    {
+      "email": "email",
+      "password": "password",
+      "id": 1
+    },
+    {
+      "email": "nwessel429@gmail.com",
+      "password": "coolo",
+      "id": 2
+    },
+    {
+      "email": "nwessel429@gmail.com",
+      "password": "cool",
+      "id": 3
     }
   ],
   "tasks": [
@@ -14,6 +29,5 @@
       "completion_date": "02-04-2019",
       "completed": false
     }
-
   ]
 }
