@@ -1,6 +1,6 @@
 import sessionStorageSetup from "../User_login/session_storage"
 
-    // Function to post new events to the json database
+    // Function to post new events to the JSON database
     function newEventCreation() {
         let name = document.querySelector("#eventName")
         let location = document.querySelector("#eventLocation")

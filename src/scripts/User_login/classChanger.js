@@ -4,7 +4,7 @@ function hideDiv() {
   const tasks = document.getElementById("taskBox");
   const events = document.getElementById("eventBox");
   const articles = document.getElementById("articleBox");
-  login.classList.toggle("hide") // Makes login & register disappear when pressed2
+  login.classList.toggle("hide") // Makes login & register disappear when pressed
   messages.classList.toggle("hide") // Making messenges appear after above
   tasks.classList.toggle("hide")
   events.classList.toggle("hide")
