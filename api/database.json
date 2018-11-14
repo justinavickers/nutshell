@@ -17,5 +17,15 @@
       "users_id": 0,
       "message": "eat FARTS!"
     }
+  ],
+  "tasks": [
+    {
+      "id": 0,
+      "user_id": 0,
+      "name": "new task",
+      "completion_date": "02-04-2019",
+      "completed": false
+    }
+
   ]
 }

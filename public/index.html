@@ -1,31 +1,41 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Browserify Boilerplate</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../src/styles.css">    
+    <link rel="stylesheet" href="../src/styles.css">
 </head>
+
 <body>
     <article class="login">
-<div id= "loginBox" class="loginBox"> 
-    <input type="text" id="login" class="login" value="email" required>
-    <input type= "text" id="password" class="password" value= "password" required>
-    <input type="button" class="loginButton" id="loginButton" value="Login">
-    <input type= "button" class="signUpButton" id="signUpButton" value="Register">
-</div>
-<div id="messages" class="messages">
-    <input type="text" id="messageBar" class="messageBar">
-    <input type="button" id="messageButton" class="messageButton" value="message">
-    <div class="messageInjection" id= "messageInjection"></div>
-</div>
+        <div id="loginBox" class="loginBox">
+            <input type="text" id="login" class="login" value="email" required>
+            <input type="text" id="password" class="password" value="password" required>
+            <input type="button" class="loginButton" id="loginButton" value="Login">
+            <input type="button" class="signUpButton" id="signUpButton" value="Register">
+        </div>
+        <div id="messages" class="messages">
+            <input type="text" id="messageBar" class="messageBar">
+            <input type="button" id="messageButton" class="messageButton" value="message">
+            <div class="messageInjection" id="messageInjection"></div>
+        </div>
     </article>
-
-    <div id="taskDiv" class="taskDiv">
-        
-    </div>
+    <article>
+        <div id="taskDiv" class="taskDiv">
+            <label value="Task Name"></label>
+            <input type="text" id="taskName" class="taskName" value="Task Name">
+            <label value="Task Date"></label>
+            <input type="text" id="taskDate" class="taskDate" value="11-30-2019">
+            <label value="Task taskCompleted"></label>
+            <input type="checkbox" id="taskCompleted" class="taskCompleted">
+            <input type="button" id="taskButton" class="taskButton" value="Create New Task">
+        </div>
+    </article>
 
     <script src="bundle.js"></script>
 </body>
+
 </html>
