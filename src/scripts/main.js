@@ -9,6 +9,6 @@ newUsers.addEventListener("click", ()=> {
     alert("Welcome to our webpage")
 })
 existingUserButton.addEventListener("click", ()=>{
-  registerUser()
+    registerUser()
     alert("Welcome to our webpage")
 })
