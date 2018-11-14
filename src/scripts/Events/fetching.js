@@ -17,4 +17,4 @@ const eventAPIfunctions = {
   })}
 }
 
-export default eventAPIfunctions
+  export default eventAPIfunctions
