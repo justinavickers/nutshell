@@ -1,18 +1,14 @@
-import newUserCreation from "./User_login/registerUser";
-import loginUser from "./User_login/loginUser"
-import displayMessages from"./Messages/MessageGetFunction"
-import messageDisplay from "./Messages/MessageGetFunction";
+import registerUser from "./User_login/registerUser";
 // import sessionStorageSetup from "./User_login/session_storage";
 // event listener for sign up and register buttons
 let existingUserButton = document.getElementById("loginButton")
 let newUsers = document.getElementById("signUpButton")
 
 newUsers.addEventListener("click", ()=> {
-    newUserCreation()
+    registerUser()
     alert("Welcome to our webpage")
 })
 existingUserButton.addEventListener("click", ()=>{
-    loginUser()
+  registerUser()
     alert("Welcome to our webpage")
 })
-messageDisplay()

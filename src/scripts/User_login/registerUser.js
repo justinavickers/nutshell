@@ -1,5 +1,6 @@
 import userAPIfunctions from "./fetching"
 import loginUser from "./loginUser"
+import hideDiv from "./classChanger";
     function registerUser(){
         let login = document.querySelector("#login")
         let password = document.querySelector("#password")
@@ -14,5 +15,6 @@ import loginUser from "./loginUser"
     .then((response)=>response.json()
     .then((user)=> loginUser(user))
     )
+    hideDiv()
 }
 export default registerUser
